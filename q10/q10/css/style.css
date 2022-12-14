@@ -27,40 +27,41 @@
   background: #0ffd0fd9;
 }
 .shadowRed {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851), 0 5px 1px rgba(63, 5, 5, 0.851);
   color: #fff;
   background: #fd0f0fd9;
 }
 .shadowBlue {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(5, 13, 63, 0.851), 0 5px 1px rgba(5, 13, 63, 0.851);
   color: #fff;
   background: #170ffdd9;
 }
 .shadowGreen {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(5, 63, 5, 0.851), 0 5px 1px rgba(5, 63, 5, 0.851);
   color: #000;
   background: #0ffd0fd9;
 }
 .activeRed {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851), 0 5px 1px rgba(63, 5, 5, 0.851);
   color: #fff;
   background: #fd0f0fd9;
 }
 .activeBlue {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(5, 13, 63, 0.851), 0 5px 1px rgba(5, 13, 63, 0.851);
   color: #fff;
   background: #170ffdd9;
 }
 .activeGreen {
-  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 rgba(5, 63, 5, 0.851), 0 5px 1px rgba(5, 63, 5, 0.851);
   color: #000;
   background: #0ffd0fd9;
 }
 .activeRed:active,
 .activeBlue:active,
 .activeGreen:active {
-  box-shadow: 0 0 0 rgba(63, 5, 5, 0.851);
-  transform: translateY(7px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(4px);
+  border-bottom: none;
 }
 .doubleBtn {
   color: #67c5ff;
