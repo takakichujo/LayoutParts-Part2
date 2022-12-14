@@ -1,1 +1,95 @@
 @charset "UTF-8";
+.btnFlex {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 0 15px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.btn:first-child {
+  margin-left: 0;
+}
+.btnRed {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+.btnBlue {
+  color: #fff;
+  background: #170ffdd9;
+}
+.btnGreen {
+  color: #000;
+  background: #0ffd0fd9;
+}
+.shadowRed {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #fff;
+  background: #fd0f0fd9;
+}
+.shadowBlue {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #fff;
+  background: #170ffdd9;
+}
+.shadowGreen {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #000;
+  background: #0ffd0fd9;
+}
+.activeRed {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #fff;
+  background: #fd0f0fd9;
+}
+.activeBlue {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #fff;
+  background: #170ffdd9;
+}
+.activeGreen {
+  box-shadow: 0 10px 25px 0 rgba(63, 5, 5, 0.851);
+  color: #000;
+  background: #0ffd0fd9;
+}
+.activeRed:active,
+.activeBlue:active,
+.activeGreen:active {
+  box-shadow: 0 0 0 rgba(63, 5, 5, 0.851);
+  transform: translateY(7px);
+}
+.doubleBtn {
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+  transition: 0.5s;
+}
+
+.doubleBtn:hover {
+  background: #fffbef;
+}
+
+.dottedBtn {
+  color: #67c5ff;
+  border: 4px dotted #75caff;
+  transition: 0.5s;
+}
+
+.dottedBtn:hover {
+  border-style: dashed;
+}
+
+.dashedBtn {
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px dashed #67c5ff;
+  transition: 0.5s;
+}
+
+.dashedBtn:hover {
+  color: #67c5ff;
+  background: #ffffff;
+}
